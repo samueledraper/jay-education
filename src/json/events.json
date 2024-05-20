@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "title": "SEN Parent Meet Up",
+    "date": "Thursday 18th April",
+    "event_type": "Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+  },
+  {
+    "_id": 2,
+    "title": "Dyslexia & how to help your child with spellings",
+    "date": "Thursday 19th April",
+    "event_type": "Parent Workshop",
+    "description": "This session aims to help you understand Dyslexia, or issues your child may have with reading, spelling or writing, and give you lots of ideas and strategies to support them. There will be lots of resources to review, practical tips and time for questions too."
+  },
+  {
+    "_id": 3,
+    "title": "ADHD",
+    "date": "Thursday 25th April",
+    "event_type": "Parent Workshop",
+    "description": "Understanding the issues that your child may have with aspects of their school life, due to ADHD (either diagnosed or suspected). There will be resources, books and lots of strategies shared."
+  },
+  {
+    "_id": 4,
+    "title": "SEN Parent Meet Up",
+    "date": "Friday 17th May",
+    "event_type": "Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+  }
+]
