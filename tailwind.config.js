@@ -6,7 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brandNeutral: "#f0faff",
+        brandLightTurquoise: "#00D2E1",
+        brandMidTurquoise: "#007E85",
+        brandDarkTurquoise: "#003C3C",
+      },
+    },
   },
   plugins: [],
 };
