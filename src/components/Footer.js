@@ -11,9 +11,9 @@ export default function Footer() {
           <h4>Contact</h4>
           <ul>
             <li>
-              <Link href={"mailto:contact@jayeducation.co.uk"}>
+              <a href="mailto:contact@jayeducation.co.uk">
                 contact@jayeduction.co.uk
-              </Link>
+              </a>
             </li>
             <li>
               <Image src={facebook} alt="Facebook Logo" width={32} />
