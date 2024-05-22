@@ -9,9 +9,13 @@ module.exports = {
     extend: {
       colors: {
         brandNeutral: "#f0faff",
-        brandLightTurquoise: "#00D2E1",
-        brandMidTurquoise: "#007E85",
-        brandDarkTurquoise: "#003C3C",
+        brandTeal: {
+          500: "#00D2E1",
+          600: "#00AAB6",
+          700: "#008A94",
+          800: "#007E85",
+          900: "#003C3C",
+        },
       },
     },
   },
