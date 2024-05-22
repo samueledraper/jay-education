@@ -11,7 +11,7 @@ module.exports = {
         brandNeutral: "#f0faff",
         brandTeal: {
           500: "#00D2E1",
-          600: "#00AAB6",
+          600: "#00C5D3",
           700: "#008A94",
           800: "#007E85",
           900: "#003C3C",
