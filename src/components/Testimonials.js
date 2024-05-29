@@ -27,7 +27,7 @@ export default function Testimonials() {
   useEffect(() => {
     const timerId = setInterval(
       () => setIndex((i) => (i + 1) % testimonials.length),
-      5000
+      8000
     );
     return () => clearInterval(timerId);
   }, []);
@@ -37,10 +37,12 @@ export default function Testimonials() {
   }, [index]);
 
   return (
-    <section>
-      <h2>What people are saying...</h2>
-      <p>{display.quote}</p>
-      <p>{display.author}</p>
+    <section className="p-8 w-full bg-brandTeal-500 text-brandDarkTeal-900">
+      <div className="max-w-5xl mx-auto flex flex-col gap-4 py-16 leading-relaxed">
+        <h2>What people are saying...</h2>
+        <p className="text-4xl font-semibold">{display.quote}</p>
+        <p>{display.author}</p>
+      </div>
     </section>
   );
 }
