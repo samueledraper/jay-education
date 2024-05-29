@@ -7,8 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        128: "32rem",
+      },
       colors: {
-        brandNeutral: "#f0faff",
+        brandNeutral: {
+          100: "#F0FAFF",
+          200: "#E3F6FF",
+        },
         brandTeal: {
           500: "#00D2E1",
           600: "#00C5D3",
