@@ -3,8 +3,8 @@ import Link from "next/link";
 import logo from "../../public/logo/logo.png";
 export default function MenuOverlay({ toggleMenuOverlay }) {
   return (
-    <div className="fixed z-10 top-0 left-0 h-screen w-screen bg-brandNeutral-100">
-      <div className="flex justify-between items-center w-10/12 mx-auto pt-8 lg:pt-16 pb-8 text-2xl">
+    <div className="fixed left-0 top-0 z-10 h-screen w-screen bg-brandNeutral-100">
+      <div className="mx-auto flex w-10/12 items-center justify-between pb-8 pt-8 text-2xl lg:pt-16">
         <Link onClick={toggleMenuOverlay} href={"/"}>
           <Image src={logo} alt="JAY Education Logo" height={60} />
         </Link>
@@ -35,8 +35,8 @@ export default function MenuOverlay({ toggleMenuOverlay }) {
           />
         </svg>
       </div>
-      <nav className="w-10/12 mx-auto text-4xl text-right">
-        <ul className="flex flex-col gap-8 mt-64">
+      <nav className="mx-auto w-10/12 text-right text-4xl">
+        <ul className="mt-64 flex flex-col gap-8">
           <li className="hover:text-brandTeal-800">
             <Link onClick={toggleMenuOverlay} href={"/about"}>
               About Us

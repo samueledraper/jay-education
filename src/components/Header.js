@@ -11,7 +11,7 @@ export default function Header() {
   }
   return (
     <header>
-      <div className="flex justify-between items-center w-10/12 lg:w-11/12 mx-auto pt-8 lg:pt-16 pb-8 text-xl">
+      <div className="mx-auto flex w-10/12 items-center justify-between pb-8 pt-8 text-xl lg:w-11/12 lg:pt-16">
         <Link href={"/"}>
           <Image src={logo} alt="JAY Education Logo" height={60} />
         </Link>
@@ -26,14 +26,14 @@ export default function Header() {
             <li className="hover:text-brandTeal-800">
               <a href={"/#workshops"}>Workshops</a>
             </li>
-            <li className="cursor-pointer px-4 py-2 rounded-xl border-2 border-brandTeal-900 bg-brandTeal-500 hover:bg-brandTeal-600">
+            <li className="cursor-pointer rounded-xl border-2 border-brandTeal-900 bg-brandTeal-500 px-4 py-2 hover:bg-brandTeal-600">
               <Link href={"/contact"}>Get in Touch</Link>
             </li>
           </ul>
         </nav>
         <svg
           onClick={toggleMenuOverlay}
-          className="lg:hidden cursor-pointer"
+          className="cursor-pointer lg:hidden"
           width="32"
           height="22"
           viewBox="0 0 32 22"

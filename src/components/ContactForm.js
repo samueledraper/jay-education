@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function ContactForm() {
   const [enquiryType, setEnquiryType] = useState(
-    "f15b5dc4-4d0b-4902-a745-7f5d4f2d15a5"
+    "f15b5dc4-4d0b-4902-a745-7f5d4f2d15a5",
   );
 
   const [result, setResult] = useState("");
@@ -47,7 +47,7 @@ export default function ContactForm() {
     <section className="">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-8 w-10/12 mx-auto my-32 max-w-3xl text-lg"
+        className="mx-auto my-32 flex w-10/12 max-w-3xl flex-col gap-8 text-lg"
       >
         <input
           type="hidden"
@@ -57,7 +57,7 @@ export default function ContactForm() {
         <div>
           <select
             onChange={handleEnquiryType}
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-4 py-2"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-4 py-2"
             name="recipient"
             id="recipient"
           >
@@ -74,14 +74,14 @@ export default function ContactForm() {
         </div>
         <div className="flex gap-4">
           <input
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
             type="text"
             name="name"
             required
             placeholder="First Name"
           />
           <input
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
             type="text"
             name="surname"
             required
@@ -90,7 +90,7 @@ export default function ContactForm() {
         </div>
         <div>
           <input
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
             type="phone"
             name="phone"
             placeholder="Phone Number"
@@ -98,7 +98,7 @@ export default function ContactForm() {
         </div>
         <div>
           <input
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
             type="email"
             name="email"
             required
@@ -106,9 +106,9 @@ export default function ContactForm() {
           />
         </div>
         {enquiryType === "f15b5dc4-4d0b-4902-a745-7f5d4f2d15a5" && (
-          <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex flex-col gap-8 md:flex-row">
             <select
-              className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+              className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
               name="tuition"
               id="tuition"
             >
@@ -118,7 +118,7 @@ export default function ContactForm() {
               <option value="Assessments">Assessments</option>
             </select>
             <input
-              className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+              className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
               type="number"
               name="age"
               min="0"
@@ -129,7 +129,7 @@ export default function ContactForm() {
         )}
         <div>
           <textarea
-            className="w-full bg-brandNeutral-200 border-2 border-brandTeal-900 rounded px-2 py-1"
+            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-200 px-2 py-1"
             name="message"
             required
             rows="3"
@@ -137,7 +137,7 @@ export default function ContactForm() {
           ></textarea>
         </div>
         <button
-          className="w-fit self-end cursor-pointer px-16 py-2 rounded border-2 border-brandTeal-900 bg-brandTeal-500 hover:bg-brandTeal-600 font-semibold"
+          className="w-fit cursor-pointer self-end rounded border-2 border-brandTeal-900 bg-brandTeal-500 px-16 py-2 font-semibold hover:bg-brandTeal-600"
           type="submit"
         >
           Send

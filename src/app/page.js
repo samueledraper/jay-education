@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <section>
-        <div className="w-10/12 mx-auto max-w-4xl my-16 lg:my-32 text-xl md:text-2xl lg:text-3xl">
+        <div className="mx-auto my-16 w-10/12 max-w-4xl text-xl md:text-2xl lg:my-32 lg:text-3xl">
           <h2 className="mb-8 leading-relaxed">
             Our strong belief has always been that children who are happy and
             comfortable learn best.
@@ -24,7 +24,8 @@ export default function Home() {
 
         <div className="relative mx-auto h-96 md:h-128">
           <Image
-            quality={100}
+            priority
+            quality={20}
             src={hero}
             alt={""}
             fill

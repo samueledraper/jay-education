@@ -31,32 +31,32 @@ export default function UpcomingWorkshops() {
 
   return (
     <section id="workshops" className="bg-brandNeutral-200">
-      <div className="w-10/12 mx-auto py-16 lg:py-32">
-        <h2 className="text-4xl font-semibold mb-8 leading-relaxed">
+      <div className="mx-auto w-10/12 py-16 lg:py-32">
+        <h2 className="mb-8 text-4xl font-semibold leading-relaxed">
           Upcoming Workshops
         </h2>
 
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex flex-col gap-4 lg:flex-row">
           {workshops.map((workshop, index) => {
             return (
               <div
                 key={workshop._id}
-                className="h-fit flex flex-col justify-between border-2 border-brandTeal-900 rounded-lg text-sm lg:w-1/4"
+                className="flex h-fit flex-col justify-between rounded-lg border-2 border-brandTeal-900 text-sm lg:w-1/4"
               >
                 <div className="flex flex-col p-4">
                   <p>{workshop.date}</p>
                   <div className="my-4">
-                    <p className="mb-2 text-2xl font-semibold ">
+                    <p className="mb-2 text-2xl font-semibold">
                       {workshop.title}
                     </p>
                     <p className="font-semibold">{workshop.sub}</p>
                   </div>
-                  <p className="hidden sm:block text-sm">
+                  <p className="hidden text-sm sm:block">
                     {workshop.description}
                   </p>
                   {toggle === index ? (
                     <>
-                      <div className="flex justify-between mt-4 items-center">
+                      <div className="mt-4 flex items-center justify-between">
                         <p className="font-semibold">Register Interest</p>
                         <svg
                           className="cursor-pointer"
@@ -87,7 +87,7 @@ export default function UpcomingWorkshops() {
                       </div>
                       <form
                         onSubmit={handleSubmit}
-                        className="flex flex-col gap-2 mt-4"
+                        className="mt-4 flex flex-col gap-2"
                       >
                         <input
                           type="hidden"
@@ -101,7 +101,7 @@ export default function UpcomingWorkshops() {
                         />
                         <div>
                           <input
-                            className="w-full bg-brandNeutral-100 border-2 border-brandTeal-900 rounded px-2 py-1"
+                            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-100 px-2 py-1"
                             type="text"
                             name="name"
                             required
@@ -110,7 +110,7 @@ export default function UpcomingWorkshops() {
                         </div>
                         <div>
                           <input
-                            className="w-full bg-brandNeutral-100 border-2 border-brandTeal-900 rounded px-2 py-1"
+                            className="w-full rounded border-2 border-brandTeal-900 bg-brandNeutral-100 px-2 py-1"
                             type="email"
                             name="email"
                             required
@@ -118,7 +118,7 @@ export default function UpcomingWorkshops() {
                           />
                         </div>
                         <button
-                          className="w-full cursor-pointer px-2 py-1 rounded border-2 border-brandTeal-900 bg-brandTeal-500 hover:bg-brandTeal-600 font-semibold"
+                          className="w-full cursor-pointer rounded border-2 border-brandTeal-900 bg-brandTeal-500 px-2 py-1 font-semibold hover:bg-brandTeal-600"
                           type="submit"
                         >
                           Submit
@@ -128,7 +128,7 @@ export default function UpcomingWorkshops() {
                   ) : (
                     <p
                       onClick={() => setToggle(index)}
-                      className="cursor-pointer font-semibold mt-4 hover:text-brandTeal-800 w-fit"
+                      className="mt-4 w-fit cursor-pointer font-semibold hover:text-brandTeal-800"
                     >
                       Register Interest
                     </p>

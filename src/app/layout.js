@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "JAY Education",
-  description: "",
+  description: "Private tutoring",
 };
 
 export default function RootLayout({ children }) {

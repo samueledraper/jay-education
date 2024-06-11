@@ -10,10 +10,10 @@ export default function TuitionInfo() {
   }
   return (
     <section id="services" className="py-32 text-brandTeal-900">
-      <div className="w-10/12 mx-auto">
-        <div className="max-w-4xl mx-auto">
+      <div className="mx-auto w-10/12">
+        <div className="mx-auto max-w-4xl">
           <h2 className="text-4xl font-semibold">Tuition Services</h2>
-          <p className="text-xl mt-8">
+          <p className="mt-8 text-xl">
             We all have a wide range of experience across KS1 & KS2, including
             working with children with various Special Education Needs. We offer
             individual and group sessions which can be delivered in Chinnor,
@@ -22,10 +22,10 @@ export default function TuitionInfo() {
           </p>
         </div>
 
-        <div className="mt-8 lg:mt-16 justify-start">
-          <div className="flex flex-wrap lg:justify-center gap-4 text-sm lg:text-lg">
+        <div className="mt-8 justify-start lg:mt-16">
+          <div className="flex flex-wrap gap-4 text-sm lg:justify-center lg:text-lg">
             <button
-              className={`px-4 py-2 rounded-lg border-2 border-brandTeal-900 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
+              className={`rounded-lg border-2 border-brandTeal-900 px-4 py-2 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
                 userChoice === "individualLessons" && "bg-brandTeal-500"
               }`}
               onClick={handleUserChoice}
@@ -34,7 +34,7 @@ export default function TuitionInfo() {
               Individual Lessons
             </button>
             <button
-              className={`px-4 py-2 rounded-lg border-2 border-brandTeal-900 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
+              className={`rounded-lg border-2 border-brandTeal-900 px-4 py-2 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
                 userChoice === "transferTests" && "bg-brandTeal-500"
               }`}
               onClick={handleUserChoice}
@@ -43,7 +43,7 @@ export default function TuitionInfo() {
               Transfer Tests (11+)
             </button>
             <button
-              className={`px-4 py-2 rounded-lg border-2 border-brandTeal-900 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
+              className={`rounded-lg border-2 border-brandTeal-900 px-4 py-2 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
                 userChoice === "senSupport" && "bg-brandTeal-500"
               }`}
               onClick={handleUserChoice}
@@ -52,7 +52,7 @@ export default function TuitionInfo() {
               SEN Support
             </button>
             <button
-              className={`px-4 py-2 rounded-lg border-2 border-brandTeal-900 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
+              className={`rounded-lg border-2 border-brandTeal-900 px-4 py-2 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
                 userChoice === "assessments" && "bg-brandTeal-500"
               }`}
               onClick={handleUserChoice}
@@ -61,7 +61,7 @@ export default function TuitionInfo() {
               Assessments
             </button>
             <button
-              className={`px-4 py-2 rounded-lg border-2 border-brandTeal-900 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
+              className={`rounded-lg border-2 border-brandTeal-900 px-4 py-2 hover:bg-brandTeal-500 active:bg-brandTeal-600 ${
                 userChoice === "workshops" && "bg-brandTeal-500"
               }`}
               onClick={handleUserChoice}
@@ -71,10 +71,10 @@ export default function TuitionInfo() {
             </button>
           </div>
 
-          <div className="max-w-4xl mx-auto mt-8 flex flex-col text-xl">
+          <div className="mx-auto mt-8 flex max-w-4xl flex-col text-xl">
             {userChoice === "individualLessons" && (
               <div className="text-base md:text-lg">
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="mb-4 text-2xl font-semibold">
                   Individual Tuition
                 </h3>
                 <p>
@@ -92,7 +92,7 @@ export default function TuitionInfo() {
 
             {userChoice === "transferTests" && (
               <div className="text-base md:text-lg">
-                <h3 className="text-2xl font-semibold mb-4">
+                <h3 className="mb-4 text-2xl font-semibold">
                   Transfer Tests (11+)
                 </h3>
 
@@ -114,7 +114,7 @@ export default function TuitionInfo() {
             )}
             {userChoice === "senSupport" && (
               <div className="text-base md:text-lg">
-                <h3 className="text-2xl font-semibold mb-4">SEN Support</h3>
+                <h3 className="mb-4 text-2xl font-semibold">SEN Support</h3>
 
                 <p>
                   We have experience of teaching children with a wide range of
@@ -130,7 +130,7 @@ export default function TuitionInfo() {
             )}
             {userChoice === "assessments" && (
               <div className="text-base md:text-lg">
-                <h3 className="text-2xl font-semibold mb-4">Assessments</h3>
+                <h3 className="mb-4 text-2xl font-semibold">Assessments</h3>
 
                 <p>
                   We offer informal assessment sessions to help you find out
@@ -144,7 +144,7 @@ export default function TuitionInfo() {
             )}
             {userChoice === "workshops" && (
               <div className="text-base md:text-lg">
-                <h3 className="text-2xl font-semibold mb-4">Workshops</h3>
+                <h3 className="mb-4 text-2xl font-semibold">Workshops</h3>
 
                 <p>
                   We hold a monthly meet-up for parents of children with SEN
