@@ -12,7 +12,7 @@ module.exports = {
         60: "60deg",
       },
       colors: {
-        brandNeutral: "#FFFFF5",
+        brandNeutral: "#FFFFF0",
         brandDark: "#1D484E",
         brandLight: "#39C2D7",
         brandGreen: "#78A350",

@@ -13,15 +13,17 @@ export const metadata = {
 };
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${quicksand.className} mx-auto w-11/12 overflow-x-hidden xl:w-10/12`}
+        className={`${quicksand.className} bg-brandNeutral mx-auto w-11/12 overflow-x-hidden xl:w-10/12`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
