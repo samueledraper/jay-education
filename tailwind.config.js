@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      rotate: {
+        30: "30deg",
+        60: "60deg",
+      },
       colors: {
         brandNeutral: "#FFFFF5",
         brandDark: "#1D484E",

@@ -17,7 +17,9 @@ import Header from "@/components/Header";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${quicksand.className} mx-auto w-11/12 xl:w-10/12`}>
+      <body
+        className={`${quicksand.className} mx-auto w-11/12 overflow-x-hidden xl:w-10/12`}
+      >
         <Header />
         {children}
       </body>
