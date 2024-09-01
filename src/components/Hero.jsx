@@ -60,7 +60,7 @@ export default function Hero() {
       </div>
 
       <div className="order-1 md:order-2 md:w-2/3">
-        <h2 className="text-4xl font-bold leading-snug sm:text-5xl sm:leading-tight xl:text-6xl xl:leading-snug">
+        <h2 className="text-4xl font-bold leading-snug sm:text-5xl sm:leading-tight xl:leading-snug">
           Children who are{" "}
           <span className="bg-expression_12 bg-contain bg-center bg-no-repeat px-4">
             happy
