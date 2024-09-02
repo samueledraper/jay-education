@@ -53,9 +53,9 @@ export default function About() {
                 alt="Speach mark illustration"
               ></Image>
               <p className="px-4 py-2">
-                Jane is adept at identifying a pupil’s individual needs. She
-                maximises their potential using a positive and creative learning
-                environment.
+                Jane is adept at identifying a pupil&apos;s individual needs.
+                She maximises their potential using a positive and creative
+                learning environment.
               </p>
               <Image
                 className="self-end"
@@ -71,25 +71,25 @@ export default function About() {
               state and independent sectors in many different roles. These have
               included leading English (including phonics) and assessment across
               the school; teaching in mainly Key Stage One and Lower Key Stage
-              Two classes; supporting children one-to-one and in small 'booster'
-              groups and as Joint Head Teacher.
+              Two classes; supporting children one-to-one and in small
+              &apos;booster&apos; groups and as Joint Head Teacher.
             </p>
             <p>
               I graduated with a BEd (Hons) in teaching and have continued to
               study, completing courses on dyslexia, phonics teaching,
               multi-sensory maths, ADHD, sensory processing, ASD, improving
-              children's writing and dyscalculia. I have recently completed my
-              Level 3 Certificate in Practical Solutions for Dyslexia, with the
-              British Dyslexia Association. I ensure I keep up to date with the
-              latest research by attending conferences, webinars and
+              children&apos;s writing and dyscalculia. I have recently completed
+              my Level 3 Certificate in Practical Solutions for Dyslexia, with
+              the British Dyslexia Association. I ensure I keep up to date with
+              the latest research by attending conferences, webinars and
               exhibitions.
             </p>
             <p>
               Since beginning tutoring, I have had the opportunity to follow my
               interest in SEN and work with children in small groups and
               one-to-one. This enables strong working relationships to be built
-              quickly and the child’s own interests incorporated into the
-              teaching, increasing the child's confidence which, in turn,
+              quickly and the child&apos;s own interests incorporated into the
+              teaching, increasing the child&apos;s confidence which, in turn,
               enables them to make rapid progress and become a more independent
               learner. It has enabled me to achieve what I set out to do when
               starting teaching initially - to make a difference to individual
@@ -102,8 +102,8 @@ export default function About() {
               state and independent sectors in many different roles. These have
               included leading English (including phonics) and assessment across
               the school; teaching in mainly Key Stage One and Lower Key Stage
-              Two classes; supporting children one-to-one and in small 'booster'
-              groups and as Joint Head Teacher.
+              Two classes; supporting children one-to-one and in small
+              &apos;booster&apos; groups and as Joint Head Teacher.
             </p>
             {readMoreJane && (
               <>
@@ -111,21 +111,21 @@ export default function About() {
                   I graduated with a BEd (Hons) in teaching and have continued
                   to study, completing courses on dyslexia, phonics teaching,
                   multi-sensory maths, ADHD, sensory processing, ASD, improving
-                  children's writing and dyscalculia. I have recently completed
-                  my Level 3 Certificate in Practical Solutions for Dyslexia,
-                  with the British Dyslexia Association. I ensure I keep up to
-                  date with the latest research by attending conferences,
-                  webinars and exhibitions.
+                  children&apos;s writing and dyscalculia. I have recently
+                  completed my Level 3 Certificate in Practical Solutions for
+                  Dyslexia, with the British Dyslexia Association. I ensure I
+                  keep up to date with the latest research by attending
+                  conferences, webinars and exhibitions.
                 </p>
                 <p className="mt-4">
                   Since beginning tutoring, I have had the opportunity to follow
                   my interest in SEN and work with children in small groups and
                   one-to-one. This enables strong working relationships to be
-                  built quickly and the child’s own interests incorporated into
-                  the teaching, increasing the child's confidence which, in
-                  turn, enables them to make rapid progress and become a more
-                  independent learner. It has enabled me to achieve what I set
-                  out to do when starting teaching initially - to make a
+                  built quickly and the child&apos;s own interests incorporated
+                  into the teaching, increasing the child&apos;s confidence
+                  which, in turn, enables them to make rapid progress and become
+                  a more independent learner. It has enabled me to achieve what
+                  I set out to do when starting teaching initially - to make a
                   difference to individual children and see their confidence and
                   independence grow!
                 </p>
@@ -197,8 +197,8 @@ export default function About() {
               mathematics, I also helped prepare pupils for SATs as well as
               independent school entrance exams and interview techniques. I have
               continued to teach mathematics to smaller groups of pupils, as
-              well as on a one-to-one basis, to build children's confidence and
-              develop their mathematical skills. I have mentored trainee
+              well as on a one-to-one basis, to build children&apos;s confidence
+              and develop their mathematical skills. I have mentored trainee
               teachers, provided maths training for class teachers and for
               parents, to understand how maths is taught in schools.
             </p>
@@ -207,8 +207,8 @@ export default function About() {
               completing courses on mastery in mathematics and deeper learning
               across the curriculum including in English, dyslexia, autism and
               ADHD. I thoroughly enjoy teaching and there are few things better
-              than seeing the reaction of a child when they have that 'Eureka'
-              moment.
+              than seeing the reaction of a child when they have that
+              &apos;Eureka&apos; moment.
             </p>
           </div>
           <div className="w-full flex-col text-xl md:hidden">
@@ -231,11 +231,11 @@ export default function About() {
                   mathematics, I also helped prepare pupils for SATs as well as
                   independent school entrance exams and interview techniques. I
                   have continued to teach mathematics to smaller groups of
-                  pupils, as well as on a one-to-one basis, to build children's
-                  confidence and develop their mathematical skills. I have
-                  mentored trainee teachers, provided maths training for class
-                  teachers and for parents, to understand how maths is taught in
-                  schools.
+                  pupils, as well as on a one-to-one basis, to build
+                  children&apos;s confidence and develop their mathematical
+                  skills. I have mentored trainee teachers, provided maths
+                  training for class teachers and for parents, to understand how
+                  maths is taught in schools.
                 </p>
                 <p className="mt-4">
                   Throughout my teaching career I have continued to study,
@@ -243,7 +243,7 @@ export default function About() {
                   learning across the curriculum including in English, dyslexia,
                   autism and ADHD. I thoroughly enjoy teaching and there are few
                   things better than seeing the reaction of a child when they
-                  have that 'Eureka' moment.
+                  have that &apos;Eureka&apos; moment.
                 </p>
               </>
             )}
