@@ -7,6 +7,8 @@ const quicksand = Quicksand({
   fallback: ["helvetica", "arial", "sans-serif"],
 });
 
+export const runtime = "edge";
+
 export const metadata = {
   title: "Jay Education",
   description:
