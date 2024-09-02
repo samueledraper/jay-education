@@ -1,6 +1,10 @@
 "use client";
+
 import { useState, useEffect } from "react";
+
 import workshops from "@/json/workshops.json";
+
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 export default function Contact() {
   const [success, setSuccess] = useState(false);
@@ -15,9 +19,14 @@ export default function Contact() {
     setSubject(e.target.value);
   }
 
+  const onHCaptchaChange = (token) => {
+    setValue("h-captcha-response", token);
+  };
+
   async function handleSubmit(e) {
     e.preventDefault();
     const formData = new FormData(e.target);
+    console.log(formData);
     formData.append("access_key", "f15b5dc4-4d0b-4902-a745-7f5d4f2d15a5");
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -194,6 +203,11 @@ export default function Contact() {
                   placeholder="Message"
                 ></textarea>
               </div>
+              <HCaptcha
+                sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
+                reCaptchaCompat={false}
+                onVerify={onHCaptchaChange}
+              />
               <button
                 className="self-end bg-expression_04 bg-contain bg-center bg-no-repeat p-8 text-3xl font-semibold"
                 type="submit"
