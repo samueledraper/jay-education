@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import InfoCards from "@/components/InfoCards";
 import TuitionInfo from "@/components/TuitionInfo";
+import Workshops from "@/components/Workshops";
 
 import alphabet from "@/assets/images/student_ordering_alphabet.jpg";
 import tuition from "@/assets/images/individual_tuition_session.jpg";
@@ -33,7 +34,7 @@ export default function Home() {
         </div>
         <div className="relative h-64 w-full md:h-80">
           <Image
-            className="rotate-30 absolute -bottom-8 right-2 z-10 h-20 w-auto md:-bottom-16 md:right-1/4 md:h-32"
+            className="absolute -bottom-8 right-2 z-10 h-20 w-auto rotate-30 md:-bottom-16 md:right-1/4 md:h-32"
             src={plant}
             alt="Lightbulb illustration"
           ></Image>
@@ -52,6 +53,7 @@ export default function Home() {
         </div>
       </section>
       <TuitionInfo />
+      <Workshops />
     </main>
   );
 }

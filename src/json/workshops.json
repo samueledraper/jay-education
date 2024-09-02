@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "SEN Parent Meet Up",
+    "sub": "How to help your child with spellings",
+    "weekday": "Friday",
+    "date": "13th",
+    "month": "September",
+    "workshop_type": "SEN Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+  },
+  {
+    "id": 2,
+    "title": "SEN Parent Meet Up",
+    "sub": "How to help your child with spellings",
+    "weekday": "Thursday",
+    "date": "10th",
+    "month": "October",
+    "workshop_type": "SEN Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+  },
+  {
+    "id": 3,
+    "title": "SEN Parent Meet Up",
+    "sub": "How to help your child with spellings",
+    "weekday": "Thursday",
+    "date": "10th",
+    "month": "October",
+    "workshop_type": "SEN Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+  }
+]
