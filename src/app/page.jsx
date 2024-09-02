@@ -1,8 +1,8 @@
-import Link from "next/link";
 import Image from "next/image";
 
 import Hero from "@/components/Hero";
 import InfoCards from "@/components/InfoCards";
+import TuitionInfo from "@/components/TuitionInfo";
 
 import alphabet from "@/assets/images/student_ordering_alphabet.jpg";
 import tuition from "@/assets/images/individual_tuition_session.jpg";
@@ -51,6 +51,7 @@ export default function Home() {
           ></Image>
         </div>
       </section>
+      <TuitionInfo />
     </main>
   );
 }
