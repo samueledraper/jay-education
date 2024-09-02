@@ -9,7 +9,8 @@ const quicksand = Quicksand({
 
 export const metadata = {
   title: "Jay Education",
-  description: "",
+  description:
+    "Offering tuition and 11+ preperation to primary pupils in Oxfordshire and Buckinghamshire.",
 };
 
 import Header from "@/components/Header";
