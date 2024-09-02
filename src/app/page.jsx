@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import InfoCards from "@/components/InfoCards";
 import TuitionInfo from "@/components/TuitionInfo";
+import Quote from "@/components/Quote";
 import Workshops from "@/components/Workshops";
 
 import alphabet from "@/assets/images/student_ordering_alphabet.jpg";
@@ -53,6 +54,11 @@ export default function Home() {
         </div>
       </section>
       <TuitionInfo />
+      <Quote
+        quote={
+          "The first time our son has ever been enthusiastic about learning. Thank you so much, highly recommend."
+        }
+      />
       <Workshops />
     </main>
   );

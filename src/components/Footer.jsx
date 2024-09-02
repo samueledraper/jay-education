@@ -5,7 +5,7 @@ import logo_white from "@/assets/logo/logo_white.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-brandDark text-brandNeutral mt-64 flex flex-col justify-between gap-8 rounded-lg p-8 sm:flex-row">
+    <footer className="mt-16 flex flex-col justify-between gap-8 rounded-lg bg-brandDark p-8 text-brandNeutral sm:flex-row md:mt-32">
       <div>
         <h4 className="mb-1 text-lg font-semibold md:text-xl">Opening Hours</h4>
         <ul>
