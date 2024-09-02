@@ -179,7 +179,7 @@ export default function Contact() {
                     className="w-full rounded-xl border-2 bg-transparent p-2 font-medium"
                   >
                     <option hidden value="n/a">
-                      Select the upcoming workshop you are interested in
+                      Select the workshop you are interested in
                     </option>
 
                     {workshops.map((workshop) => {
@@ -187,7 +187,7 @@ export default function Contact() {
                         <option
                           key={workshop.id}
                           value={`${workshop.date} - ${workshop.title}`}
-                        >{`${workshop.weekday} ${workshop.date} ${workshop.month} - ${workshop.title}: ${workshop.sub}`}</option>
+                        >{`${workshop.weekday} ${workshop.date} ${workshop.month} - ${workshop.title}`}</option>
                       );
                     })}
                   </select>
