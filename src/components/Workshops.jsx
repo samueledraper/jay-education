@@ -46,7 +46,7 @@ export default function Workshops() {
               alt="Line illustration"
             ></Image>
             <p className="text-lg font-medium">
-              Held in our garden workshop in chinnor, after school drop off in
+              Held in our garden workshop in Chinnor, after school drop off in
               the morning. They are predominantly a network group for parents of
               children with SEN needs.  There is usually a short input and then
               plenty of time to share ideas, successes and resources – with good
