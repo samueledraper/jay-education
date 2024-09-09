@@ -12,7 +12,7 @@ export const runtime = "edge";
 export const metadata = {
   title: "Jay Education",
   description:
-    "Offering tuition and 11+ preperation to primary pupils in Oxfordshire and Buckinghamshire.",
+    "Offering individual tuition and 11+ preparation to primary pupils in Oxfordshire and Buckinghamshire.",
 };
 
 import Header from "@/components/Header";
