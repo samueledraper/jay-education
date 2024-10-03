@@ -81,7 +81,7 @@ export default function Workshops() {
               <p className="text-lg font-medium">
                 Held in our garden workshop in Chinnor, after school drop off in
                 the morning. They are predominantly a network group for parents
-                of children with SEN needs.  There is usually a short input and
+                of children with SEN needs. There is usually a short input and
                 then plenty of time to share ideas, successes and resources –
                 with good coffee and cake!
               </p>
@@ -106,7 +106,7 @@ export default function Workshops() {
       </section>
       <section className="mt-16 md:mt-16">
         <h2 className="mb-2 text-5xl font-bold lg:text-6xl">
-          Children's Workshops
+          Children&apos;s Workshops
         </h2>
         <Image
           className="mt-4 w-2/3 sm:w-1/2 md:w-1/2"
@@ -115,7 +115,8 @@ export default function Workshops() {
         ></Image>
         <div className="text-xl">
           <p className="mb-4 mt-8">
-            Children's workshops take place most school holidays and include;
+            Children&apos;s workshops take place most school holidays and
+            include;
           </p>
           <p className="text-xl font-semibold md:text-2xl">
             Creative Writing, Mindfulness, Lego Club, Book Clubs and 11+ and
