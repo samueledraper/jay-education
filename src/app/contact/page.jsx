@@ -92,6 +92,8 @@ export default function Contact() {
                   </option>
                   <option value="tuition">Tuition</option>
                   <option value="workshop">Workshops</option>
+                  <option value="assessments">Assessments</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
 
@@ -187,7 +189,7 @@ export default function Contact() {
                         <option
                           key={workshop.id}
                           value={`${workshop.date} - ${workshop.title}`}
-                        >{`${workshop.weekday} ${workshop.date} ${workshop.month} - ${workshop.title}`}</option>
+                        >{`${workshop.weekday} ${workshop.date} ${workshop.month} - ${workshop.title}: ${workshop.sub}`}</option>
                       );
                     })}
                   </select>

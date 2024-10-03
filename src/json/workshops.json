@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "SEN Parent Meet Up",
-    "sub": "Network group and sharing resources.",
+    "sub": "Network group and sharing resources",
     "weekday": "Thursday",
     "date": "10th",
     "month": "October",
@@ -18,5 +18,15 @@
     "month": "October",
     "workshop_type": "Workshop",
     "description": "Find out how issues with working memory impacts your child's learning and learn strategies to support them."
+  },
+  {
+    "id": 3,
+    "title": "SEN Parent Meet Up",
+    "sub": "Network group and sharing resources",
+    "weekday": "Friday",
+    "date": "8th",
+    "month": "November",
+    "workshop_type": "SEN Parent Meet Up",
+    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
   }
 ]
