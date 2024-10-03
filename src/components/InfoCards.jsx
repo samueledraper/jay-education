@@ -42,8 +42,9 @@ export default function InfoCards() {
           alt="Line illustration"
         ></Image>
         <p className="mt-4">
-          We have enhanced DBS and are registered with the online DBS Update
-          Service. Registered with the ICO and are fully insured.
+          All our tutors have an enhanced DBS and are registered with the online
+          DBS Update Service. We are also registered with the ICO and are fully
+          insured.
         </p>
       </div>
     </section>

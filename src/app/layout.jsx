@@ -10,9 +10,13 @@ const quicksand = Quicksand({
 export const runtime = "edge";
 
 export const metadata = {
+  metadataBase: new URL("https://www.jayeducation.co.uk"),
   title: "Jay Education",
   description:
     "Offering individual tuition and 11+ preparation to primary pupils in Oxfordshire and Buckinghamshire.",
+  openGraph: {
+    images: "/og-image.jpg",
+  },
 };
 
 import Header from "@/components/Header";
