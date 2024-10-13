@@ -51,6 +51,7 @@ export default function Contact() {
 
   return (
     <section className="mx-auto mt-16">
+      <h1 className="hidden">Get in Touch</h1>
       <div className="text-xl">
         {success ? (
           <div className="flex h-96 flex-col items-center justify-center text-2xl">

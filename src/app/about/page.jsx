@@ -26,6 +26,7 @@ export default function About() {
 
   return (
     <main>
+      <h1 className="hidden">About Us</h1>
       <div className="mt-16">
         <div>
           <h2 className="mb-2 text-5xl font-bold lg:text-6xl">Jane</h2>
