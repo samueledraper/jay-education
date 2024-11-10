@@ -1,32 +1,34 @@
 [
   {
     "id": 1,
-    "title": "SEN Parent Meet Up",
-    "sub": "Network group and sharing resources",
+    "title": "Workshop",
+    "sub": "ADHD",
     "weekday": "Thursday",
-    "date": "10th",
-    "month": "October",
-    "workshop_type": "SEN Parent Meet Up",
-    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+    "date": "14th",
+    "month": "November"
   },
   {
     "id": 2,
     "title": "Workshop",
-    "sub": "Working Memory",
+    "sub": "Emotional regulation",
     "weekday": "Thursday",
-    "date": "17th",
-    "month": "October",
-    "workshop_type": "Workshop",
-    "description": "Find out how issues with working memory impacts your child's learning and learn strategies to support them."
+    "date": "21st",
+    "month": "November"
   },
   {
     "id": 3,
-    "title": "SEN Parent Meet Up",
-    "sub": "Network group and sharing resources",
+    "title": "Workshop",
+    "sub": "Supporting your child with reading and spelling (including dyslexia)",
     "weekday": "Friday",
-    "date": "8th",
-    "month": "November",
-    "workshop_type": "SEN Parent Meet Up",
-    "description": "A short input on various educational or SEN topics and then plenty of time to network with the other mums, sharing advice and empathy over coffee and cake!"
+    "date": "22nd",
+    "month": "November"
+  },
+  {
+    "id": 4,
+    "title": "SEN Meet-Up",
+    "sub": "Network group and sharing resources",
+    "weekday": "Thursday",
+    "date": "12th",
+    "month": "December"
   }
 ]
