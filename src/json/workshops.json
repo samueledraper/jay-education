@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Workshop",
-    "sub": "ADHD",
-    "weekday": "Thursday",
-    "date": "14th",
-    "month": "November"
-  },
-  {
     "id": 2,
     "title": "Workshop",
     "sub": "Emotional regulation",
