@@ -1,22 +1,14 @@
 [
   {
-    "id": 2,
-    "title": "Workshop",
-    "sub": "Emotional regulation",
+    "id": 1,
+    "title": "Parent Workshop",
+    "sub": "ADHD: Strategies for supporting your child.",
     "weekday": "Thursday",
-    "date": "21st",
-    "month": "November"
+    "date": "5th",
+    "month": "December"
   },
   {
-    "id": 3,
-    "title": "Workshop",
-    "sub": "Supporting your child with reading and spelling (including dyslexia)",
-    "weekday": "Friday",
-    "date": "22nd",
-    "month": "November"
-  },
-  {
-    "id": 4,
+    "id": 2,
     "title": "SEN Meet-Up",
     "sub": "Network group and sharing resources",
     "weekday": "Thursday",
