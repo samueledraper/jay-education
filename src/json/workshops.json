@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Parent Workshop",
-    "sub": "ADHD: Strategies for supporting your child.",
-    "weekday": "Thursday",
-    "date": "5th",
-    "month": "December"
+    "title": "SEN Meet-Up",
+    "sub": "Network Group with Focus on Executive Functions.",
+    "weekday": "Friday",
+    "date": "10th",
+    "month": "January"
   },
   {
     "id": 2,
     "title": "SEN Meet-Up",
     "sub": "Network group and sharing resources",
-    "weekday": "Thursday",
-    "date": "12th",
-    "month": "December"
+    "weekday": "Friday",
+    "date": "7th",
+    "month": "February"
   }
 ]
