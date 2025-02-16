@@ -1,18 +1,10 @@
 [
   {
     "id": 1,
-    "title": "SEN Meet-Up",
-    "sub": "Network Group with Focus on Executive Functions.",
-    "weekday": "Friday",
-    "date": "10th",
-    "month": "January"
-  },
-  {
-    "id": 2,
-    "title": "SEN Meet-Up",
-    "sub": "Network group and sharing resources",
-    "weekday": "Friday",
-    "date": "7th",
+    "title": "Workshop",
+    "sub": "How to support your child with spelling and reading.",
+    "weekday": "Thursday",
+    "date": "27th",
     "month": "February"
   }
 ]
