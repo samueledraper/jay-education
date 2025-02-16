@@ -1,10 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Workshop",
+    "title": "9.15am & 7.30pm Workshop",
     "sub": "How to support your child with spelling and reading.",
     "weekday": "Thursday",
     "date": "27th",
     "month": "February"
+  },
+  {
+    "id": 2,
+    "title": "9.15am SEN Meet-Up",
+    "sub": "Networking group.",
+    "weekday": "Thursday",
+    "date": "6th",
+    "month": "March"
+  },
+  {
+    "id": 3,
+    "title": "9.15am SEN Meet-Up",
+    "sub": "Networking group.",
+    "weekday": "Friday",
+    "date": "4th",
+    "month": "April"
   }
 ]
