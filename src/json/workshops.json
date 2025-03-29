@@ -3,8 +3,16 @@
     "id": 1,
     "title": "9.15am SEN Meet-Up",
     "sub": "Networking group.",
-    "weekday": "Friday",
-    "date": "4th",
-    "month": "April"
+    "weekday": "Thursday",
+    "date": "8th",
+    "month": "May"
+  },
+  {
+    "id": 2,
+    "title": "7.30pm SEN Meet-Up",
+    "sub": "Networking group.",
+    "weekday": "Thursday",
+    "date": "8th",
+    "month": "May"
   }
 ]
