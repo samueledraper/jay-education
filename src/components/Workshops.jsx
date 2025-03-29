@@ -52,9 +52,9 @@ export default function Workshops() {
 
         <div className="mt-16 flex flex-col gap-16 md:flex-row">
           <div className="flex flex-col gap-8 md:w-1/3">
-            {workshops.map((workshop) => {
+            {workshops.map((workshop, i) => {
               return (
-                <div key={workshop.id} className="flex items-center gap-6">
+                <div key={i} className="flex items-center gap-6">
                   <div className="relative flex h-20 w-20 flex-col items-center justify-center rounded-xl bg-calendar_black bg-contain bg-center bg-no-repeat p-4 font-bold">
                     <p className="text-center text-xs">{workshop.weekday}</p>
                     <p className="text-xl">{workshop.date}</p>

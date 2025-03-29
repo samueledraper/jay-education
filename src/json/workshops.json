@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "title": "9.15am SEN Meet-Up",
     "sub": "Networking group.",
     "weekday": "Thursday",
@@ -8,7 +7,6 @@
     "month": "May"
   },
   {
-    "id": 2,
     "title": "7.30pm SEN Meet-Up",
     "sub": "Networking group.",
     "weekday": "Thursday",

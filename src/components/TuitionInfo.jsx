@@ -35,11 +35,11 @@ export default function TuitionInfo() {
 
       <div className="mt-8 flex flex-col gap-10">
         <div className="flex flex-wrap gap-4 text-lg font-semibold md:text-xl">
-          {services.map((service) => {
+          {services.map((service, i) => {
             return (
               <button
                 className={`${type === service.type ? "bg-expression_01" : ""} bg-contain bg-center bg-no-repeat p-3 hover:bg-expression_01`}
-                key={service.type}
+                key={i}
                 value={service.type}
                 onClick={handleDisplay}
               >
