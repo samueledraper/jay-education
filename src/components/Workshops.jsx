@@ -49,12 +49,58 @@ export default function Workshops() {
             to hear about our forthcoming events.
           </p>
         </div>
+          <div className="mt-16 mx-auto flex flex-col gap-8">
+            
 
-        <div className="mt-16 flex flex-col gap-16 md:flex-row">
-          <div className="flex flex-col gap-8 md:w-1/3">
+            <div className="md:flex">
+              <div className="flex flex-col gap-2 md:w-1/2 md:pr-4 mb-8">
+                <h2 className="text-2xl font-bold">SEN Parents Meet-Up</h2>
+                <Image
+                  className=""
+                  src={line_03}
+                  height={5}
+                  alt="Line illustration"
+                ></Image>
+                <p className="text-lg font-medium">
+                  Held in our garden workshop in Chinnor, after school drop off in
+                  the morning. They are predominantly a network group for parents
+                  of children with SEN needs. There is usually a short input and
+                  then plenty of time to share ideas, successes and resources –
+                  with good coffee and cake!
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-2 md:w-1/2 md:pl-4 mb-8">
+                <h2 className="text-2xl font-bold">Parent Support</h2>
+                <Image
+                  className=""
+                  src={line_04}
+                  height={5}
+                  alt="Line illustration"
+                ></Image>
+                <p className="text-lg font-medium">
+                  Aim to help understand the challenges your child faces and to give you strategies and resources on how to support them.
+                </p>
+              </div>
+
+            </div>
+            
+
+
+
+            <div class="flex flex-col gap-2">
+              <h2 className="text-2xl font-bold">Upcoming Workshops</h2>
+              <Image
+                className=""
+                src={line_02}
+                height={5}
+                alt="Line illustration"
+              ></Image>
+            </div>
+          <div className="flex flex-col md:flex-row md:flex-wrap w-full">
             {workshops.map((workshop, i) => {
               return (
-                <div key={i} className="flex items-center gap-6">
+                <div key={i} className="flex items-start gap-6 md:w-1/3 p-2">
                   <div className="relative flex h-20 w-20 flex-col items-center justify-center rounded-xl bg-calendar_black bg-contain bg-center bg-no-repeat p-4 font-bold">
                     <p className="text-center text-xs">{workshop.weekday}</p>
                     <p className="text-xl">{workshop.date}</p>
@@ -69,39 +115,7 @@ export default function Workshops() {
             })}
           </div>
 
-          <div className="mx-auto flex flex-col gap-8 md:w-2/3">
-            <div className="flex flex-col gap-2">
-              <h2 className="text-2xl font-bold">SEN Parents Meet-Up</h2>
-              <Image
-                className=""
-                src={line_03}
-                height={5}
-                alt="Line illustration"
-              ></Image>
-              <p className="text-lg font-medium">
-                Held in our garden workshop in Chinnor, after school drop off in
-                the morning. They are predominantly a network group for parents
-                of children with SEN needs. There is usually a short input and
-                then plenty of time to share ideas, successes and resources –
-                with good coffee and cake!
-              </p>
-            </div>
 
-            <div className="flex flex-col gap-2">
-              <h2 className="text-2xl font-bold">Parent Support</h2>
-              <Image
-                className=""
-                src={line_04}
-                height={5}
-                alt="Line illustration"
-              ></Image>
-              <p className="text-lg font-medium">
-                Workshops held regularly on supporting your child with spelling,
-                maths, Dyslexia, Working Memory and Emotional Regulation. Please
-                get in touch to find out more.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
       <section className="mt-16 md:mt-16">
