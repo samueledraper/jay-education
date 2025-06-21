@@ -1,65 +1,23 @@
 [
   {
-    "title": "9.15am Parent Workshop",
-    "sub": "Emotional Regulation",
+    "title": "7:30pm SEN Meet-Up",
+    "sub": "Network meeting with input on multisensory learning.",
     "weekday": "Thursday",
-    "date": "22nd",
-    "month": "May"
-  },
-  {
-    "title": "7.30pm Parent Workshop",
-    "sub": "Emotional Regulation",
-    "weekday": "Thursday",
-    "date": "22nd",
-    "month": "May"
-  },
-  {
-    "title": "9.15am Parent Workshop",
-    "sub": "Dyslexia & Supporting your child with reading & spelling",
-    "weekday": "Thursday",
-    "date": "5th",
+    "date": "26th",
     "month": "June"
   },
   {
-    "title": "7.30pm Parent Workshop",
-    "sub": "Dyslexia & Supporting your child with reading & spelling",
-    "weekday": "Thursday",
-    "date": "5th",
-    "month": "June"
-  },
-  {
-    "title": "9.15am SEN Meet-Up",
-    "sub": "Networking group.",
-    "weekday": "Thursday",
-    "date": "19th",
-    "month": "June"
-  },
-  {
-    "title": "7.30pm SEN Meet-Up",
-    "sub": "Networking group.",
-    "weekday": "Thursday",
-    "date": "19th",
-    "month": "June"
-  },
-    {
-    "title": "9.15am Parent Workshop",
-    "sub": "ADHD",
-    "weekday": "Thursday",
-    "date": "3rd",
+    "title": "9am SEN Meet-Up",
+    "sub": "Network meeting with input on ADHD.",
+    "weekday": "Wednesday",
+    "date": "16th",
     "month": "July"
   },
   {
-    "title": "7.30pm Parent Workshop",
-    "sub": "ADHD",
-    "weekday": "Thursday",
-    "date": "3rd",
-    "month": "July"
-  },
-    {
-    "title": "9.15am SEN Meet-Up",
-    "sub": "ADHD",
-    "weekday": "Thursday",
-    "date": "10th",
+    "title": "7pm SEN Meet-Up",
+    "sub": "Network meeting with input on ADHD.",
+    "weekday": "Wednesday",
+    "date": "16th",
     "month": "July"
   }
 ]
