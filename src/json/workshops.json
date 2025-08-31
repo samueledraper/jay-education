@@ -1,23 +1,39 @@
 [
   {
     "title": "7:30pm SEN Meet-Up",
-    "sub": "Network meeting with input on multisensory learning.",
+    "sub": "Meet other parents going through the SEN journey.",
     "weekday": "Thursday",
-    "date": "26th",
-    "month": "June"
+    "date": "4th",
+    "month": "September"
   },
   {
     "title": "9am SEN Meet-Up",
-    "sub": "Network meeting with input on ADHD.",
-    "weekday": "Wednesday",
-    "date": "16th",
-    "month": "July"
+    "sub": "Meet other parents going through the SEN journey.",
+    "weekday": "Friday",
+    "date": "5th",
+    "month": "September"
   },
   {
-    "title": "7pm SEN Meet-Up",
-    "sub": "Network meeting with input on ADHD.",
-    "weekday": "Wednesday",
-    "date": "16th",
-    "month": "July"
+    "title": "7:30pm SEN Meet-Up",
+    "sub": "Meet other parents going through the SEN journey.",
+    "weekday": "Thursday",
+    "date": "2nd",
+    "month": "October"
+  },
+  {
+    "title": "9am SEN Meet-Up",
+    "sub": "Meet other parents going through the SEN journey.",
+    "weekday": "Friday",
+    "date": "3rd",
+    "month": "October"
+  },
+  {
+    "title": "7.30pm Parent Workshop",
+    "sub": "Helping your child with reading and spelling, including those with Dyslexia.",
+    "weekday": "Thursday",
+    "date": "9th",
+    "month": "October"
   }
 ]
+
+
