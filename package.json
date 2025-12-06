@@ -27,5 +27,8 @@
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }
