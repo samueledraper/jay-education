@@ -88,7 +88,7 @@ export default function Workshops() {
 
 
 
-            <div className="flex flex-col gap-2">
+            {/* <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold">Upcoming Workshops</h2>
               <Image
                 className=""
@@ -113,7 +113,7 @@ export default function Workshops() {
                 </div>
               );
             })}
-          </div>
+          </div> */}
 
 
         </div>
