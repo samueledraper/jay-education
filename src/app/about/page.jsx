@@ -257,6 +257,161 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <div className="mt-16">
+        <div>
+          <h2 className="mb-2 text-5xl font-bold lg:text-6xl">Johanna</h2>
+          <Image
+            className="mt-4 w-2/3 sm:w-1/2 md:w-1/3"
+            src={line_02}
+            alt="Line illustration"
+          ></Image>
+        </div>
+        <div className="mt-8 flex flex-col gap-8 md:flex-row md:gap-16">
+          <div className="flex items-center gap-8 md:w-1/3 md:flex-col">
+            <div className="relative min-[360px]:max-w-64 md:mx-auto">
+              {/* <Image
+                className="rounded-xl"
+                src={yasmin}
+                alt="Jay Education tutor Yasmin"
+                style={{ objectFit: "cover" }}
+              ></Image> */}
+            </div>
+            <div className="mt-8 hidden flex-col font-semibold sm:flex">
+              <Image
+                className="self-start"
+                width={50}
+                src={speach_01}
+                alt="Speach mark illustration"
+              ></Image>
+              <p className="px-4 py-2">
+                My aim is to help every child feel more confident, capable and
+                happy when learning maths.
+              </p>
+              <Image
+                className="self-end"
+                width={50}
+                src={speach_02}
+                alt="Speach mark illustration"
+              ></Image>
+            </div>
+          </div>
+          <div className="hidden w-2/3 flex-col gap-4 text-xl md:flex">
+            <p>
+              I am a qualified Specialist Tutor and Assessor, specialising in
+              supporting children with maths difficulties and dyscalculia. I
+              hold a Level 7 qualification in Assessment and Intervention for
+              Maths Learning Difficulties and Dyscalculia. This enables me to
+              provide specialist assessment, targeted interventions and
+              evidence-based support tailored to each child&apos;s needs. I also
+              hold an SpLD APC (Assessing Practice Certificate) and AMBDA
+              Dyscalculia (Associate Member of the British Dyslexia
+              Association).
+            </p>
+            <p>
+              I work with children who find maths challenging, including those
+              with dyscalculia, dyslexia, autism and other co-occurring learning
+              differences, as well as children who may be struggling with core
+              concepts or confidence in maths. My approach is highly
+              personalised and very supportive, helping children build secure
+              understanding, confidence and independence.
+            </p>
+            <p>
+              I use a multi-sensory approach to make learning engaging and
+              enjoyable. This means we use practical resources, visual models,
+              movement and discussion alongside written work, helping children
+              understand maths rather than just memorise methods. Sessions are
+              designed to be positive and confidence-building so children feel
+              successful and motivated.
+            </p>
+            <div className="mt-4">
+              <p className="mb-2">I can offer:</p>
+              <ul className="list-disc">
+                <li>
+                  Personalised maths tuition for KS1, KS2 and KS3 (1:1 or small
+                  groups)
+                </li>
+                <li>Screening for maths difficulties and dyscalculia</li>
+                <li>
+                  Specialist assessments for maths difficulties and dyscalculia
+                </li>
+                <li>SATs preparation (1:1 and group tuition)</li>
+                <li>
+                  Support for learners with co-occurring difficulties, including
+                  dyslexia and autism
+                </li>
+                <li>
+                  Parent workshops to share practical strategies for supporting
+                  maths at home
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-full flex-col text-xl md:hidden">
+            <p>
+              I am a qualified Specialist Tutor and Assessor, specialising in
+              supporting children with maths difficulties and dyscalculia. I
+              hold a Level 7 qualification in Assessment and Intervention for
+              Maths Learning Difficulties and Dyscalculia. This enables me to
+              provide specialist assessment, targeted interventions and
+              evidence-based support tailored to each child&apos;s needs. I also
+              hold an SpLD APC (Assessing Practice Certificate) and AMBDA
+              Dyscalculia (Associate Member of the British Dyslexia
+              Association).
+            </p>
+            {readMoreYasmin && (
+              <>
+                <p className="mt-4">
+                  I work with children who find maths challenging, including
+                  those with dyscalculia, dyslexia, autism and other
+                  co-occurring learning differences, as well as children who may
+                  be struggling with core concepts or confidence in maths. My
+                  approach is highly personalised and very supportive, helping
+                  children build secure understanding, confidence and
+                  independence.
+                </p>
+                <p className="mt-4">
+                  I use a multi-sensory approach to make learning engaging and
+                  enjoyable. This means we use practical resources, visual
+                  models, movement and discussion alongside written work,
+                  helping children understand maths rather than just memorise
+                  methods. Sessions are designed to be positive and
+                  confidence-building so children feel successful and motivated.
+                </p>
+                <div className="mt-4">
+                  <p>I can offer:</p>
+                  <ul className="list-disc">
+                    <li>
+                      Personalised maths tuition for KS1, KS2 and KS3 (1:1 or
+                      small groups)
+                    </li>
+                    <li>Screening for maths difficulties and dyscalculia</li>
+                    <li>
+                      Specialist assessments for maths difficulties and
+                      dyscalculia
+                    </li>
+                    <li>SATs preparation (1:1 and group tuition)</li>
+                    <li>
+                      Support for learners with co-occurring difficulties,
+                      including dyslexia and autism
+                    </li>
+                    <li>
+                      Parent workshops to share practical strategies for
+                      supporting maths at home
+                    </li>
+                  </ul>
+                </div>
+              </>
+            )}
+            <button
+              className="mt-4 text-base font-semibold"
+              onClick={handleReadMoreYasmin}
+            >
+              {readMoreYasmin ? "Show Less" : "Read More"}
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
