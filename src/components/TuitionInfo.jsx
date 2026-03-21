@@ -11,7 +11,6 @@ import line_01 from "@/assets/illustrations/line_01.png";
 export default function TuitionInfo() {
   const [type, setType] = useState(services[0].type);
   const [description, setDescription] = useState(services[0].description);
-  const [price, setPrice] = useState(services[0].price);
 
   function handleDisplay(e) {
     setType(e.target.value);
@@ -20,7 +19,6 @@ export default function TuitionInfo() {
   useEffect(() => {
     const display = services.find((service) => service.type === type);
     setDescription(display.description);
-    setPrice(display.price);
   }, [type]);
 
   return (
@@ -51,7 +49,6 @@ export default function TuitionInfo() {
 
         <div className="text-xl md:text-2xl">
           <p>{description}</p>
-          <p className="mt-4 text-base font-semibold md:text-lg">{price}</p>
         </div>
       </div>
     </section>
